@@ -1,0 +1,50 @@
+body{
+    font-family: 'Sofia', sans-serif;
+    font-size: 30px;
+    background-color: #faedf6;
+}
+
+header{
+    background:#f7eff4;
+    border-bottom:#ffa1e4 solid 1.5px;
+}
+div.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #A7DEB3;
+    text-align: center;
+}
+a{
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #A7DEB3;
+    font-size: 20px;
+    
+}
+.card{
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+}
+
+.card-imag{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: #007BFF;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #007BFF;
+}
