@@ -1,12 +1,12 @@
 body{
     font-family: 'Sofia', sans-serif;
     font-size: 30px;
-    background-color: #faedf6;
+    background-color: #6f656c;
 }
 
 header{
-    background:#f7eff4;
-    border-bottom:#ffa1e4 solid 1.5px;
+    background:#ffffff;
+    border-bottom:#e6d12d solid 1.5px;
 }
 div.container-header{
     display: flex;
@@ -16,30 +16,58 @@ div.container-header{
 
 h1{
     font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #A7DEB3;
+    text-shadow: 3px 3px 3px #ebdf31;
     text-align: center;
 }
 a{
     font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #A7DEB3;
+    text-shadow: 3px 3px 3px #ebdf31;
     font-size: 20px;
     
 }
 
-.card body{
-    min-width: 1000px;
-    max-width: 1000px;
+.carousel-item{
+    display: flex;
+    gap: 30px;         
+    padding: 10px;
 }
 
-.carousel-inner .carousel-item img {
-    width: 100%;      
-    height: 100%; 
+.carousel-item img.logo {
+    width: 1290px;      
+    height: 580px;
+   
 }
 
+
+.carousel-item img.roupas {
+    flex-shrink: 0; 
+    width: 390px;      
+    height: 500px;
+    border: 5px solid rgb(252, 226, 108);
+}
+
+
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fcfbd8;
+    border: 5px solid rgb(252, 226, 108);
+    border-top: none;
+    color: #8c8a8a;
+    width: 380px;
+    text-align: center; 
+}
 .carousel-control-prev, .carousel-control-next{
-    color: #da9bc4;
+    color: #afaf0e;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #da9bc4;
+    background-color: #afaf0e;
+}
+
+.carousel-prev, .carousel-next{
+    color: #afaf0e;
+}
+
+.carousel-prev-icon, .carousel-next-icon{
+    background-color: #afaf0e;
 }
