@@ -23,8 +23,22 @@ a{
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ebdf31;
     font-size: 20px;
-    
 }
+
+h2{
+    font-family: 'Sofia', sans-serif;
+    text-shadow: 3px 3px 3px #ebdf31;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
 
 .carousel-item{
     display: flex;
@@ -52,8 +66,9 @@ a{
     background-color: #fcfbd8;
     border: 5px solid rgb(252, 226, 108);
     border-top: none;
-    color: #8c8a8a;
-    width: 380px;
+    color: #252525;
+    font-weight: bold;
+    width: 390px;
     text-align: center; 
 }
 .carousel-control-prev, .carousel-control-next{
