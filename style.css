@@ -86,3 +86,42 @@ label{
 .carousel-prev-icon, .carousel-next-icon{
     background-color: #afaf0e;
 }
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: auto;
+  margin: auto;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  scrollbar-width: none; /* Oculta a barra no Firefox */
+}
+
+.cards-wrapper::-webkit-scrollbar {
+  display: none; /* Oculta a barra no Chrome/Safari */
+}
+
+.card {
+  flex: 0 0 400px; /* Não deixa o card esticar (0), nem encolher (0) e fixa em 300px */
+}
+
+.seta-btn {
+  background: linear-gradient(#f3e475, #dfcf56);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+img{
+    height: 300px;
+}
