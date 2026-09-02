@@ -23,6 +23,7 @@ a{
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ebdf31;
     font-size: 20px;
+    
 }
 
 h2{
@@ -43,29 +44,11 @@ label{
 .carousel-item{
     display: flex;
     gap: 30px;         
-    padding: 10px;
-}
-
-.carousel-item img.logo {
-    width: 1290px;      
-    height: 580px;
-   
-}
-
-
-.carousel-item img.roupas {
-    flex-shrink: 0; 
-    width: 390px;      
-    height: 500px;
-    border: 5px solid rgb(252, 226, 108);
-}
-
-
-.info{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fcfbd8;
     border: 5px solid rgb(252, 226, 108);
     border-top: none;
+    color: #8c8a8a;
+    width: 380px;
     color: #252525;
     font-weight: bold;
     width: 390px;
@@ -85,43 +68,4 @@ label{
 
 .carousel-prev-icon, .carousel-next-icon{
     background-color: #afaf0e;
-}
-
-.carousel-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  max-width: auto;
-  margin: auto;
-}
-
-.cards-wrapper {
-  display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  width: 100%;
-  scrollbar-width: none; /* Oculta a barra no Firefox */
-}
-
-.cards-wrapper::-webkit-scrollbar {
-  display: none; /* Oculta a barra no Chrome/Safari */
-}
-
-.card {
-  flex: 0 0 400px; /* Não deixa o card esticar (0), nem encolher (0) e fixa em 300px */
-}
-
-.seta-btn {
-  background: linear-gradient(#f3e475, #dfcf56);
-  color: #fff;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 16px;
-}
-
-img{
-    height: 300px;
 }
